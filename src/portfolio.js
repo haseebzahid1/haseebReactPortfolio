@@ -117,7 +117,7 @@ const workProject = {
         {
             number:"1",
             title:"Andropple", 
-            date:"Andropple", 
+            date:"Jan 2021 - Feb 2022", 
             subTitle:"Designation",
             work:"junior Front-end Developer",
             url:"URL",
@@ -148,4 +148,48 @@ const footer = {
     title4:"Be a Social",
     follow:"Follow me an social media."
 }
-export {personal,workQuick,workEducation,knowledge,workSkills,workExperience,workProject,footer}
+
+const workLanguage = {
+    title:"Language",
+    desc:"I provide best Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+    
+}
+const workInterests = {
+    title:"Interets",
+    iconImg:"an an-brain",
+    interests:[
+        {
+            img:"an an-football",
+            title:"Soccer",
+            desc:"Lorem Ipsum is simply dummy text of the printing & typesetting industry."
+        },
+        {
+            img:"an an-camp",
+            title:"Camping",
+            desc:"Lorem Ipsum is simply dummy text of the printing & typesetting industry."
+        },
+        {
+            img:"an an-music",
+            title:"Music",
+            desc:"Lorem Ipsum is simply dummy text of the printing & typesetting industry."
+        },
+        {
+            img:"an an-gamepad",
+            title:"Gaming",
+            desc:"Lorem Ipsum is simply dummy text of the printing & typesetting industry."
+        },
+        {
+            img:"an an-swimming",
+            title:"Swimming",
+            desc:"Lorem Ipsum is simply dummy text of the printing & typesetting industry."
+        },
+      
+    ]
+}
+
+
+
+
+
+
+export {personal,workQuick,workEducation,knowledge,workSkills,workExperience,workProject,workLanguage,workInterests,footer}

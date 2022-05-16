@@ -7,6 +7,7 @@ import Knowledge from './container/knowledge/Knowledge'
 import Skills from './container/skills/Skills'
 import Experience from './container/experience/Experience'
 import Project from './container/project/Project'
+import Interests from './container/interests/Interests'
 
 const Main = () => {
   return (
@@ -17,8 +18,9 @@ const Main = () => {
     <Knowledge />
     <Skills />
     <Experience />
-    <Footer />
     <Project />
+    <Interests />
+    <Footer />
     </>
   )
 }

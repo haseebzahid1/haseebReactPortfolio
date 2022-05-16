@@ -11,7 +11,7 @@ const Knowledge = () => {
                     <div class="section-img">
                         <img src="./assets/img/education.svg" alt="" />
                         <div class="section-center-icon">
-                            <i class="an an-brain"></i>
+                            <i class={knowledge.imgIcon}></i>
                         </div>
                    </div>
                     <h1 class="section-h1">{knowledge.title}</h1>

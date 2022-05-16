@@ -57,6 +57,7 @@ const workEducation = {
 
 const knowledge = {
     title:"Knowledge",
+    imgIcon:"an an-diploma-alt",
     desc:"I have more than one year of experience in front-end development at Andropple Lab, I can create any kind of web page using (HTML, CSS, SASS, BOOTSTRAP, JS ) as well as beautiful UI's for android and ios devices using google flutter framework.",
     coding:[
         {check:"an an-check-double",code:"Html"},
@@ -67,11 +68,13 @@ const knowledge = {
 }
 const workSkills = {
     title:"Coding Skills",
+    imgIcon:"an an-tools",
     desc:"Good Grip on Dart Programming. I will make Flutter Attractive Ui’s and implementation of Restful API’s. I will make any kind of flutter ui (simple to complicated) using google flutter framework. ",
     
 }
 const workExperience = {
     title:"Experience",
+    imgIcon:"an an-thumbs-up-alt",
     desc:" have more than one year of experience in front-end development at Andropple Lab, I can create any kind of web page using (HTML, CSS, SASS, BOOTSTRAP, JS ) as well as beautiful UI's for android and ios devices using google flutter framework. ",
     content:[
         {
@@ -112,6 +115,7 @@ const workExperience = {
 }
 const workProject = {
     title:"Project",
+    imgIcon:"an an-clipboard-check",
     desc:"I provide best Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
     project:[
         {
@@ -151,12 +155,13 @@ const footer = {
 
 const workLanguage = {
     title:"Language",
+    iconImg:"an an-language-interpreting-sign",
     desc:"I provide best Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
     
 }
 const workInterests = {
     title:"Interets",
-    iconImg:"an an-brain",
+    iconImg:"an an-heart",
     interests:[
         {
             img:"an an-football",

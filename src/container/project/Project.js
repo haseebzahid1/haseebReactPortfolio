@@ -12,7 +12,7 @@ const Project = () => {
                 <div class="section-img">
                     <img src="./assets/img/education.svg" alt="" />
                     <div class="section-center-icon">
-                        <i class="an an-brain"></i>
+                        <i class={workProject.imgIcon}></i>
                     </div>
                </div>
                 <h1 class="section-h1">{workProject.title}</h1>

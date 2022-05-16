@@ -51,6 +51,13 @@
     color: #272739;
     font-weight: bold;
 }
+.section-p{
+    font-size: 14px;
+    font-weight: normal;
+    color: #55556A;
+    line-height: 30px;
+    margin-top: 21.6px;
+}
 .section-fixed{
     font-size: 32px;
     font-weight: bold;
@@ -129,6 +136,10 @@
     }
     .section-h1{
         font-size: 70px;
+    }
+    .section-p{
+        margin-top: 17.6px;
+        line-height: 27px;
     }
     .section-fixed{
         font-size: 24px;

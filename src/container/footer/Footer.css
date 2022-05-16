@@ -1,0 +1,131 @@
+.footer-container-fluid{
+    width: 100%;
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-bg-main-img{
+    background-image: url(../../../public/assets/img/footer-bottom.png);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+   
+}
+.footer-row{
+    display: flex;
+    width: 100%;
+    padding-top: 95px;
+    padding-bottom: 100px;
+ 
+}
+.footer-col-3{
+    width: 100%;
+    max-width: 23%;
+    padding-right: 29.1px;
+}
+.footer-col-4{
+    width: 100%;
+    max-width:31% ;
+   
+}
+
+.footer-h2{
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 30px;
+}
+.footer-line{
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color:#3D3D52;
+    margin-top: 23.9px;
+    margin-bottom: 26.1px;
+}
+
+.footer-p{
+    font-size: 14px;
+    color: #55556A;
+    line-height: 30px;
+}
+.footer-span-phone{
+    font-size: 14px;
+    font-weight: bold;
+    color: #55556A;
+    line-height: 30px;
+    display: block;
+}
+.footer-span{
+    font-size: 14px;
+    color: #55556A;
+    line-height: 30px;
+    display: block;
+}
+
+.footer-bottom{
+    padding: 23px 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer-c,
+.footer-bottom-span{
+    font-size: 14px;
+    color: #55556A;
+    display: inline-block;
+    
+}
+.footer-c{
+    font-size: 12px;
+    padding-right:5px ;
+}
+
+
+@media (max-width:1240px){
+    .footer-row{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media (max-width:992px){
+    .footer-row{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+@media(max-width:826px){
+    .footer-bg-main-img{
+        background-image: none;
+    }
+    .footer-row{
+        flex-wrap: wrap;
+    }
+    
+    .footer-col-3,
+    .footer-col-4{
+        max-width: 50%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 1rem;
+    }
+    .footer-line{
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+    .footer-bottom{
+        padding-left: 2rem;
+    }
+}
+
+@media (max-width:667px){
+   
+    .footer-col-3,
+    .footer-col-4{
+        max-width: 100%;
+}
+}

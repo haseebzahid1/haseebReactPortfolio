@@ -24,4 +24,45 @@ const workQuick = [
 
   
 ]
-export {personal,workQuick}
+const workEducation = {
+    title:"Education",
+    desc:"I provide best Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+    education:[
+        {
+            year:"2014 - 2016",
+            colefication:"Matric | Technical High School | Faisalabad",
+            subject:"Matric in Computer Science",
+
+        },
+        {
+            year:"2016 - 2018",
+            colefication:"Chenab Collage of Advance Study | Faisalabad",
+            subject:"Intermediate in Computer Science",
+
+        },
+        {
+            year:"2022 - Continue",
+            colefication:"Bachelor | Virtual University | Faisalabad",
+            subject:"BS-IT (hons) | Continue.",
+
+        },
+        {
+            year:"2019 - 2020",
+            colefication:"CERTIFICATION – WEB DEVELOPMENT",
+            subject:"SAYLANI MASS COMMUNICATION AND IT TRAINING",
+
+        },
+    ] 
+}
+const footer = {
+    title:"Location",
+    address:"Dhuddiwala, Faisalabad, Punjab, Pakistan.",
+    title2:"Phone",
+    number:"+92 315 7011812",
+    title3:"Email",
+    gmail:"developer.haseeb1@gmail.com",
+    gmail2:"mmianhaseeb444@gmail.com",
+    title4:"Be a Social",
+    follow:"Follow me an social media."
+}
+export {personal,workQuick,workEducation,footer}

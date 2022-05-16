@@ -54,6 +54,18 @@ const workEducation = {
         },
     ] 
 }
+
+const knowledge = {
+    title:"Knowledge",
+    desc:"I have more than one year of experience in front-end development at Andropple Lab, I can create any kind of web page using (HTML, CSS, SASS, BOOTSTRAP, JS ) as well as beautiful UI's for android and ios devices using google flutter framework.",
+    coding:[
+        {check:"an an-check-double",code:"Html"},
+        {check:"an an-check-double",code:"Css"},
+        {check:"an an-check-double",code:"Sass,Less"},
+        // {check:"an an-check-double",code:"Bootstrap"},
+    ]
+}
+
 const footer = {
     title:"Location",
     address:"Dhuddiwala, Faisalabad, Punjab, Pakistan.",
@@ -65,4 +77,4 @@ const footer = {
     title4:"Be a Social",
     follow:"Follow me an social media."
 }
-export {personal,workQuick,workEducation,footer}
+export {personal,workQuick,workEducation,knowledge,footer}

@@ -5,6 +5,9 @@
 .text-mt-28{
     margin-bottom: 28px;
 }
+.text-8{
+    margin-top: 55px;
+}
 @media (max-width:967px){
     .border-section-top{
         margin: 0;

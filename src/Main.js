@@ -3,6 +3,7 @@ import Navbar from './container/navbar/Navbar'
 import Person from './container/person/Person'
 import Footer from './container/footer/Footer'
 import Education from './container/education/Education'
+import Knowledge from './container/knowledge/Knowledge'
 
 const Main = () => {
   return (
@@ -10,6 +11,7 @@ const Main = () => {
     <Navbar />
     <Person />
     <Education />
+    <Knowledge />
     <Footer />
     </>
   )

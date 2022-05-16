@@ -1,6 +1,7 @@
 import React from 'react'
 import '../education/Education.css'
 import { workEducation } from '../../portfolio'
+import EducationCard from '../../components/educationCard/EducationCard'
 
 const Education = () => {
   return (
@@ -18,20 +19,7 @@ const Education = () => {
                 <h4 class="section-fixed">{workEducation.title}</h4>
                 <p class="section-p">{workEducation.desc}</p>
             </div>
- 
-            <div class="education-inner-row">
-                
-               
-                 {workEducation.education.map((education)=>{
-                     return <div class="education-col ">
-                     <span class="span-date">{education.year}</span>
-                     <h2 class="education_h2">{education.colefication}</h2>
-                     <p class="education-p">{education.subject}</p>
-                    </div>
-                 })}
-                 
-            </div>
- 
+            <EducationCard />
         </div>
         
     </div>

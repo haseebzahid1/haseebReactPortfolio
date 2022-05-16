@@ -65,6 +65,77 @@ const knowledge = {
         // {check:"an an-check-double",code:"Bootstrap"},
     ]
 }
+const workSkills = {
+    title:"Coding Skills",
+    desc:"Good Grip on Dart Programming. I will make Flutter Attractive Ui’s and implementation of Restful API’s. I will make any kind of flutter ui (simple to complicated) using google flutter framework. ",
+    
+}
+const workExperience = {
+    title:"Experience",
+    desc:" have more than one year of experience in front-end development at Andropple Lab, I can create any kind of web page using (HTML, CSS, SASS, BOOTSTRAP, JS ) as well as beautiful UI's for android and ios devices using google flutter framework. ",
+    content:[
+        {
+            img:"anb an-apple",
+            date:"Dec 2019- Feb 2021",
+            gob:"INTERNSHIP - Andropple",
+            experience:" 3 month internship at Andropple lab.",
+            experience2:"HTML, CSS, SASS",
+        },
+        {
+            img:"anb an-alipay",
+            date:"Feb 2021 – Jan 2022",
+            gob:"INTERNSHIP - Andropple",
+            desc:" 3 month internship at Andropple lab.",
+            experience:"Technologies: (HTML, CSS, SCSS, BOOTSTRAP, JS).",
+            experience2:"Making a lot of front-end projects, PSD to html page.",
+            experience3:"Making web pages with WordPress using (avada, divi) etc.",
+        },
+        {
+            img:"anb an-windows",
+            date:"Nov 2020 – Feb 2022 ",
+            gob:"FLUTTER DEVELOPER - Andropple",
+            desc:" 3 month internship at Andropple lab.",
+            experience:"Making front end ui’s for android and iOS devices.",
+            experience2:"Sumo Sushi and Benito App, live app on play store (source code available on GitHub).",
+            experience3:"Technology: Google Flutter Framework.",
+        },
+        // {
+        //     img:"anb an-alipay",
+        //     date:"Feb 2022 – Continue ",
+        //     gob:"FLUTTER DEVELOPER - Andropple",
+        //     desc:"FONT-END DEVELOPER - Acroex",
+        //     experience:"Technologies: (HTML, CSS, SCSS, BOOTSTRAP, JS).",
+        //     experience2:"Making a lot of front-end projects, PSD to html page. ",
+        //     experience3:"Making web pages with WordPress using (avada, divi) etc.",
+        // }
+    ]
+}
+const workProject = {
+    title:"Project",
+    desc:"I provide best Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+    project:[
+        {
+            number:"1",
+            title:"Andropple", 
+            date:"Andropple", 
+            subTitle:"Designation",
+            work:"junior Front-end Developer",
+            url:"URL",
+            link:"https://acroex.com/" ,
+            desc2:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl tincidunt eget nullam non. Quis hendrerit dolor magna eget est lorem ipsum dolor sit. Volutpat odio facilisis mauris sit amet massa. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Mi eget mauris pharetra et. Non tellus orci ac auctor augue. Elit at imperdiet dui accumsan sit. Ornare arcu dui vivamus arcu felis. Egestas integer eget aliquet nibh praesent. In hac habitasse platea dictumst quisque sagittis purus. Pulvinar elementum integer enim neque volutpat ac."
+        },
+        {
+            number:"2",
+            title:"Acroex", 
+            date:"Jul 2022 - Continue", 
+            subTitle:"Designation",
+            work:"junior Front-end Developer",
+            url:"URL",
+            link:"https://acroex.com/" ,
+            desc2:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl tincidunt eget nullam non. Quis hendrerit dolor magna eget est lorem ipsum dolor sit. Volutpat odio facilisis mauris sit amet massa. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Mi eget mauris pharetra et. Non tellus orci ac auctor augue. Elit at imperdiet dui accumsan sit. Ornare arcu dui vivamus arcu felis. Egestas integer eget aliquet nibh praesent. In hac habitasse platea dictumst quisque sagittis purus. Pulvinar elementum integer enim neque volutpat ac."
+        }
+    ]
+}
 
 const footer = {
     title:"Location",
@@ -77,4 +148,4 @@ const footer = {
     title4:"Be a Social",
     follow:"Follow me an social media."
 }
-export {personal,workQuick,workEducation,knowledge,footer}
+export {personal,workQuick,workEducation,knowledge,workSkills,workExperience,workProject,footer}

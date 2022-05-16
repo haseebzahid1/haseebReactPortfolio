@@ -1,0 +1,137 @@
+.project-container{
+    padding-top:88px;
+    padding-bottom: 150px;
+}
+.project-row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-mt-1{
+    margin-bottom: 44px;
+}
+.project-col-1,
+.project-col-2,
+.project-col-3{
+    width: 100%;
+}
+.project-col-1{
+    max-width: 8%;
+}
+.project-col-2{
+    max-width: 25%;
+}
+.project-col-3{
+    max-width: 67%;
+}
+.project-number{
+    color:#ED2B23;
+    font-size:32px;
+    font-weight: bold;
+}
+.project-h2{
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.project-date{
+    font-size: 12px;
+    display: inline-block;
+    color:#ED2B23 ;
+    line-height: 30px;
+}
+.projecn-mt:not(:first-child){
+        margin-top: 23px;
+}
+
+.project-h3{
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 30px;
+}
+.project-span{
+    font-size: 12px;
+    line-height: 30px;
+    color: #55556a;
+}
+.description-h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 30px;
+}
+.description-text{
+    font-size:14px;
+    color: #55556a;
+    line-height: 30px;
+    margin-top: 8px;
+                
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:1400px){
+    .project-container{
+        padding-top: 50.3px;
+        padding-bottom: 70px;
+        padding-right: 1rem;
+    }
+    .project-h2{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .projecn-mt:not(:first-child){
+            margin-top: 16px;
+}
+.description-text{
+    line-height: 26px;
+}
+}
+@media(max-width:1240px){
+    .project-row{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media(max-width:826px){
+.project-col-1{
+    max-width: 10%;
+}
+.project-col-2{
+    max-width: 90%;
+}
+.project-col-3{
+    max-width: 90%;
+    margin-left: auto;
+    margin-top: 2rem;
+}
+.project-left-row{
+    display: flex;
+    justify-content: space-between;
+}
+}
+@media(max-width:667px){
+    .project-col-3{
+        margin-top:1.25rem;
+    }
+    .project-left-row{
+        flex-direction: column;
+    }
+    
+}
+@media(max-width:576px){
+.project-container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+}

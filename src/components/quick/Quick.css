@@ -1,0 +1,48 @@
+.quick__quick-icon{
+    margin: 0 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+.quick__tooltip{
+    border-radius: 2px;
+    position: absolute;
+    top: -35px;
+    transition:  all 0.2s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+.quick__custom-arrow{
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 60%;
+    border-right: 1em solid transparent;
+    border-left: 1em solid transparent;
+    border-top: 1em solid #fff;
+
+}
+.quick__quick-icon:hover .quick__tooltip{
+    top: -48px;
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+.quick__quick-icon:hover .quick__tooltip{
+    top: -48px;
+    opacity: 1;
+    visibility: visible;
+    
+}
+.quick__quick-icon:hover .person-hover{
+    transition: all 0.3s ease;
+    color: #ED2B23;
+    
+}

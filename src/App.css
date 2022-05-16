@@ -34,4 +34,41 @@ p{
 a{
     text-decoration: none;
 }
-/* @media(max-width:1366px){} */
+.container{
+    width: 100%;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  
+}
+
+.container-fluid{
+    margin-top: 89.1px;
+    width: 100%;
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(max-width:1240px){
+    .container-fluid{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+@media(max-width:1024px){
+    .container-fluid{
+        max-width: 992px;
+    }
+}
+@media(max-width:826px){
+    .container-fluid{
+        max-width: 768px;
+    }
+}
+@media(max-width:667px){
+    .container-fluid{
+        max-width: 586px;
+    }
+}
+

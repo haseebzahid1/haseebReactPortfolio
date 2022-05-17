@@ -1,6 +1,7 @@
 import React from 'react'
 import '../knowledge/Knowledge.css'
-import { knowledge } from '../../portfolio'
+import { workKnowledge } from '../../portfolio'
+import KnowledgeCard from '../../components/knowledgeCard/KnowledgeCard'
 
 const Knowledge = () => {
     return (
@@ -11,34 +12,16 @@ const Knowledge = () => {
                     <div class="section-img">
                         <img src="./assets/img/education.svg" alt="" />
                         <div class="section-center-icon">
-                            <i class={knowledge.imgIcon}></i>
+                            <i class={workKnowledge.imgIcon}></i>
                         </div>
                    </div>
-                    <h1 class="section-h1">{knowledge.title}</h1>
-                    <h4 class="section-fixed">{knowledge.title}</h4>
-                    <p class="section-p">{knowledge.desc}</p>
+                    <h1 class="section-h1">{workKnowledge.title}</h1>
+                    <h4 class="section-fixed">{workKnowledge.title}</h4>
+                    <p class="section-p">{workKnowledge.desc}</p>
                 </div>
                 
-
-                <div class="knowledge-row">
-               {knowledge.coding.map((code)=>{
-                   return <div class="knowledge-col knowledge-border">
-                   <ul class="knowledge-ul">
-                       <li class="knowledge-item">
-                           <span class="knowledge-check">
-                               
-                               <i class={code.check}></i>
-                           </span>
-                           <a href="#." class="knowledge-link">{code.code}</a>
-                       </li>
-                      
-                   </ul>
-                  
-
-               </div>
-               })}
-              
-           </div>
+                {/* {  } */}
+                <KnowledgeCard />
             </div>
             
         </div>

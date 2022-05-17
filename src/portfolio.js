@@ -55,15 +55,30 @@ const workEducation = {
     ] 
 }
 
-const knowledge = {
+const workKnowledge = {
     title:"Knowledge",
     imgIcon:"an an-diploma-alt",
+    check:"an an-check-double",
     desc:"I have more than one year of experience in front-end development at Andropple Lab, I can create any kind of web page using (HTML, CSS, SASS, BOOTSTRAP, JS ) as well as beautiful UI's for android and ios devices using google flutter framework.",
-    coding:[
-        {check:"an an-check-double",code:"Html"},
-        {check:"an an-check-double",code:"Css"},
-        {check:"an an-check-double",code:"Sass,Less"},
-        // {check:"an an-check-double",code:"Bootstrap"},
+    Knowledge:[
+        {
+            subject:"Html",
+            subject1:"Css",
+            subject2:"Sass,Less",
+            subject3:"Bootstrap",
+        },
+        {
+            subject:"Javascript",
+            subject1:"Flutter",
+            subject2:"Dart",
+            subject3:"Wordpress",
+        },
+        {
+            subject:"Xd design",
+            subject1:"Photoshop design",
+            subject2:"Card design",
+            subject3:"Flyer design",
+        }
     ]
 }
 const workSkills = {
@@ -270,6 +285,7 @@ const workPortfolioPoject = {
         },
         {
             link:"#",
+
             img:"./assets/img/iteam 2.png",
             title:"Personal Portfolio Website",
             desc:"Lorem ipsum dolor sit amet, consectetur adipiscing",
@@ -280,4 +296,4 @@ const workPortfolioPoject = {
 
 
 
-export {personal,workQuick,workEducation,knowledge,workSkills,workExperience,workProject,workLanguage,workInterests,workServices,workContact,workPricing,workPortfolioPoject,footer}
+export {personal,workQuick,workEducation,workKnowledge,workSkills,workExperience,workProject,workLanguage,workInterests,workServices,workContact,workPricing,workPortfolioPoject,footer}

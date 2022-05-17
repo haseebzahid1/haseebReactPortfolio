@@ -12,6 +12,7 @@ import Services from './container/services/Services'
 import Contact from './container/contact/Contact'
 import Pricing from './container/pricing/Pricing'
 import PortfolioProject from './container/portfolioProject/PortfolioProject'
+import Language from './container/language/Language'
 
 const Main = () => {
   return (
@@ -23,12 +24,13 @@ const Main = () => {
     <Skills />
     <Experience />
     <Project />
+    <Language />
     <Interests />
     <Services />
     <Contact />
-    <Footer />
     <Pricing />
     <PortfolioProject />
+    <Footer />
     </>
   )
 }

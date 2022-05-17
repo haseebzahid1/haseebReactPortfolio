@@ -220,7 +220,32 @@ const workServices = {
     ]
 }
 
+const workContact = {
+    title:"Contact",
+    imgIcon:"an an-comment-alt-lines",
+    img:"./assets/img/map.png",
+    btn:"Submit",
+    desc:"I provide best Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+    contact:[
+        {
+            type:"text",
+            placeholder:"First Name"  
+        },
+        {
+            type:"text",
+            placeholder:"Last Name"  
+        },
+        {
+            type:"text",
+            placeholder:"Email Address"  
+        },
+        {
+            type:"text",
+            placeholder:"phone#"  
+        },
+    ]
+}
 
 
 
-export {personal,workQuick,workEducation,knowledge,workSkills,workExperience,workProject,workLanguage,workInterests,workServices,footer}
+export {personal,workQuick,workEducation,knowledge,workSkills,workExperience,workProject,workLanguage,workInterests,workServices,workContact,footer}

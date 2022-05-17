@@ -245,7 +245,13 @@ const workContact = {
         },
     ]
 }
+const workPricing = {
+    title:"Pricing",
+    imgIcon:"an an-comment-alt-lines",
+    desc:"I provide best Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+
+}
 
 
 
-export {personal,workQuick,workEducation,knowledge,workSkills,workExperience,workProject,workLanguage,workInterests,workServices,workContact,footer}
+export {personal,workQuick,workEducation,knowledge,workSkills,workExperience,workProject,workLanguage,workInterests,workServices,workContact,workPricing,footer}

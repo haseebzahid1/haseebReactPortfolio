@@ -10,6 +10,7 @@ import Project from './container/project/Project'
 import Interests from './container/interests/Interests'
 import Services from './container/services/Services'
 import Contact from './container/contact/Contact'
+import Pricing from './container/pricing/Pricing'
 
 const Main = () => {
   return (
@@ -25,7 +26,7 @@ const Main = () => {
     <Services />
     <Contact />
     <Footer />
-    
+    <Pricing />
     </>
   )
 }

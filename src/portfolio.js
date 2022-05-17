@@ -192,9 +192,35 @@ const workInterests = {
     ]
 }
 
+const workServices = {
+    title:"Services",
+    desc:" provide best Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+    imgIcon:"an an-tools",
+    services:[
+        {
+            img:"an an-globe",
+            subTitle:"Web Development",
+            subDesc:"I will develop any kind of web pages using HTML CSS SASS bootstrap and JavaScript."
+        },
+        {
+            img:"an an-design",
+            subTitle:"Mobile Apps",
+            subDesc:"I will develop Attractive and beautiful Ui's for Android and IOS devices using google flutter frame-work."
+        },
+        {
+            img:"an an-mobile-iphone",
+            subTitle:"WordPress",
+            subDesc:"I will develop any kind of web pages using Wordpress theme and plugin."
+        },
+        {
+            img:"an an-write",
+            subTitle:"Designing",
+            subDesc:"I can create a variety of design badges using a study and Phtoshop."
+        },
+    ]
+}
 
 
 
 
-
-export {personal,workQuick,workEducation,knowledge,workSkills,workExperience,workProject,workLanguage,workInterests,footer}
+export {personal,workQuick,workEducation,knowledge,workSkills,workExperience,workProject,workLanguage,workInterests,workServices,footer}

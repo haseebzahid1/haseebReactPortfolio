@@ -11,6 +11,7 @@ import Interests from './container/interests/Interests'
 import Services from './container/services/Services'
 import Contact from './container/contact/Contact'
 import Pricing from './container/pricing/Pricing'
+import PortfolioProject from './container/portfolioProject/PortfolioProject'
 
 const Main = () => {
   return (
@@ -27,6 +28,7 @@ const Main = () => {
     <Contact />
     <Footer />
     <Pricing />
+    <PortfolioProject />
     </>
   )
 }

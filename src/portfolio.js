@@ -247,11 +247,37 @@ const workContact = {
 }
 const workPricing = {
     title:"Pricing",
-    imgIcon:"an an-comment-alt-lines",
+    imgIcon:"an an-bitcoin-sign",
     desc:"I provide best Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
 
+}
+const workPortfolioPoject = {
+    title:"Portfolio",
+    imgIcon:"an an-slider",
+    desc:"I provide best Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+    portfolioProject:[
+        {
+            link:"https://haseebprofile4.surge.sh",
+            img:"./assets/img/haseebprofile4.PNG",
+            title:"Personal Portfolio Website",
+            desc:"Lorem ipsum dolor sit amet, consectetur adipiscing",
+        },
+        {
+            link:"#",
+            img:"./assets/img/iteam 2.png",
+            title:"Personal Portfolio Website",
+            desc:"Lorem ipsum dolor sit amet, consectetur adipiscing",
+        },
+        {
+            link:"#",
+            img:"./assets/img/iteam 2.png",
+            title:"Personal Portfolio Website",
+            desc:"Lorem ipsum dolor sit amet, consectetur adipiscing",
+        },
+    ]
 }
 
 
 
-export {personal,workQuick,workEducation,knowledge,workSkills,workExperience,workProject,workLanguage,workInterests,workServices,workContact,workPricing,footer}
+
+export {personal,workQuick,workEducation,knowledge,workSkills,workExperience,workProject,workLanguage,workInterests,workServices,workContact,workPricing,workPortfolioPoject,footer}

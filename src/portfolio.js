@@ -353,7 +353,59 @@ const workPricing = {
     title:"Pricing",
     imgIcon:"an an-bitcoin-sign",
     desc:"I provide best Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-
+    pricing:[
+        {
+            title:"STARTING",
+            subject:"Html",
+            subject1:"Css",
+            subject2:"Sass,Scss",
+            subject3:"Bootstrap",
+            subject4:"javascript",
+            subject5:"WordPress",
+            subject6:"Dart",
+            subject7:"Flutter",
+            check:"an an-check-double",
+            price:"25",
+            bottomPrice:".00",
+            btn:"Buy Now",
+            btnClass:"pricing-btn-a pricing-btn-a-1",
+            pricingTable:"pricing-table"
+        },
+        {
+            title:"PREMIUM",
+            subject:"Html",
+            subject1:"Css",
+            subject2:"Sass,Scss",
+            subject3:"Bootstrap",
+            subject4:"javascript",
+            subject5:"WordPress",
+            subject6:"Dart",
+            subject7:"Flutter",
+            check:"an an-check-double",
+            price:"35",
+            bottomPrice:".00",
+            btn:"Buy Now",
+            btnClass:"pricing-btn-a",
+            pricingTable:"pricing-table pricing-bg-red"
+        },
+        {
+            title:"PREMIUM",
+            subject:"Html",
+            subject1:"Css",
+            subject2:"Sass,Scss",
+            subject3:"Bootstrap",
+            subject4:"javascript",
+            subject5:"WordPress",
+            subject6:"Dart",
+            subject7:"Flutter",
+            check:"an an-check-double",
+            price:"10",
+            bottomPrice:".00",
+            btn:"Buy Now",
+            btnClass:"pricing-btn-a pricing-btn-a-1",
+            pricingTable:"pricing-table"
+        }
+    ]
 }
 const workPortfolioPoject = {
     title:"Portfolio",

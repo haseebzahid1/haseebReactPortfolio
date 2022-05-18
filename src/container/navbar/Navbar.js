@@ -1,6 +1,8 @@
 import React from 'react'
 import '../navbar/Navbar.css'
 import NavbarSocialIcon from '../../components/navbarSocialIcon/NavbarSocialIcon';
+import { workNavbarSocialIcon } from '../../portfolio';
+import NavbarTab from '../../components/navbarSocialIcon/NavbarTab';
 
 const Navbar = () => {
   return (
@@ -12,7 +14,7 @@ const Navbar = () => {
     <div className="nav__nav-container">
         <div className="nav__nav-row">
             <div className="nav__nav-logo">
-                <img src="assets/img/haseeb logo-1.png" alt="" />
+                <img src={workNavbarSocialIcon.logo} alt="" />
             </div>
           
             <input type="radio" name="slide" id="menu-bar" />
@@ -24,54 +26,15 @@ const Navbar = () => {
           </label>
             <ul className="nav__nav-list">
                 <label for="close-bar" className="nav__nav-close">
-                  
                     <i className="fa fa-times"></i>
                 </label>  
                 <div className="nav__nav-mobile-img">
-                     <img src="assets/img/haseeb logo.png" alt="" />
+                     <img src={workNavbarSocialIcon.logo2} alt="" />
                 </div>
-                <li className="nav__nav-item">
-                    <a href="#home" className="nav__nav-link">Personal info</a>
-                </li>
-                <li className="nav__nav-item">
-                    <a href="#education" className="nav__nav-link">Education</a>
-                </li>
-                <li className="nav__nav-item">
-                    <a href="#knowledge" className="nav__nav-link">Knowledge</a>
-                </li>
-                <li className="nav__nav-item">
-                    <a href="#Coding_skills" className="nav__nav-link">Coding skills</a>
-                </li>
-                <li className="nav__nav-item">
-                    <a href="#experience" className="nav__nav-link">Experience</a>
-                </li>
-                <li className="nav__nav-item">
-                    <a href="#project" className="nav__nav-link">Project</a>
-                </li>
-                <li className="nav__nav-item">
-                    <a href="#testimonials" className="nav__nav-link">Testimonials</a>
-                </li>
-                <li className="nav__nav-item">
-                    <a href="#language" className="nav__nav-link">Language</a>
-                </li>
-                <li className="nav__nav-item">
-                    <a href="#interests" className="nav__nav-link">Interests</a>
-                </li>
-                <li className="nav__nav-item">
-                    <a href="#services" className="nav__nav-link">Services</a>
-                </li>
-                <li className="nav__nav-item">
-                    <a href="#portfolio" className="nav__nav-link">Portfolio</a>
-                </li>
-                
-                <li className="nav__nav-item">
-                    <a href="#pricing" className="nav__nav-link">Pricing</a>
-                </li>
-                <li className="nav__nav-item">
-                    <a href="#contact" className="nav__nav-link">Contact</a>
-                </li>
 
-           <NavbarSocialIcon />
+                <NavbarTab />
+               <NavbarSocialIcon />
+
             </ul>
          
         </div>

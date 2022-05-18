@@ -1,6 +1,7 @@
 
 const workNavbarSocialIcon = {
     logo:"assets/img/haseeb logo-1.png",
+    logo2:"assets/img/haseeb logo.png",
     navbarSocialIcon:[
         {
             link:"#.",
@@ -27,7 +28,63 @@ const workNavbarSocialIcon = {
             target:"_blank",
             icon:"anb an-dribbble"
         },
-    ]
+        
+    ],
+  navbarTab:[
+      {
+          text:"Personal info",
+          link:"#home",
+      },
+      {
+          text:"Education",
+          link:"#education",
+      },
+      {
+          text:"Knowledge",
+          link:"#knowledge",
+      },
+      {
+          text:"Coding skills",
+          link:"#Coding_skills",
+      },
+      {
+          text:"Experience",
+          link:"#experience",
+      },
+      {
+          text:"Project",
+          link:"#project",
+      },
+      {
+          text:"Testimonials",
+          link:"#testimonials",
+      },
+      {
+          text:"Personal info",
+          link:"#.",
+      },
+      {
+          text:"Language",
+          link:"#language",
+      },
+      {
+          text:"Interests",
+          link:"#interests",
+      },
+      {
+          text:"Services",
+          link:"#services",
+      },
+      {
+          text:"Portfolio",
+          link:"#portfolio",
+      },
+      {
+          text:"Contact",
+          link:"#contact",
+      },
+  ]  
+
 }
 
 const personal = {

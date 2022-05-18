@@ -1,5 +1,6 @@
 import React from 'react'
 import '../navbar/Navbar.css'
+import NavbarSocialIcon from '../../components/navbarSocialIcon/NavbarSocialIcon';
 
 const Navbar = () => {
   return (
@@ -70,23 +71,7 @@ const Navbar = () => {
                     <a href="#contact" className="nav__nav-link">Contact</a>
                 </li>
 
-                <div className="nav__nav-social-content">
-                       <a href="#." className="nav__nav-icon-mobile" target="_blank">
-                          <i className="anb an-twitter"></i>
-                     </a>
-                    <a href="#." className="nav__nav-icon-mobile">
-                           <i className="anb an-facebook"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/haseebzahid1/" target="_blank" className="nav__nav-icon-mobile">
-                        <i className="anb an-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/" target="_blank" className="nav__nav-icon-mobile">
-                        <i className="anb an-github"></i>
-                    </a>
-                    <a href="#." className="nav__nav-icon-mobile">
-                        <i className="anb an-dribbble"></i>
-                    </a>
-                  </div>
+           <NavbarSocialIcon />
             </ul>
          
         </div>

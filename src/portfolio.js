@@ -1,3 +1,35 @@
+
+const workNavbarSocialIcon = {
+    logo:"assets/img/haseeb logo-1.png",
+    navbarSocialIcon:[
+        {
+            link:"#.",
+            target:"_blank",
+            icon:"anb an-twitter"
+        },
+        {
+            link:"#.",
+            target:"_blank",
+            icon:"anb an-facebook"
+        },
+        {
+            link:"https://www.linkedin.com/in/haseebzahid1/",
+            target:"_blank",
+            icon:"anb an-linkedin"
+        },
+        {
+            link:"https://github.com/",
+            target:"_blank",
+            icon:"anb an-github"
+        },
+        {
+            link:"#.",
+            target:"_blank",
+            icon:"anb an-dribbble"
+        },
+    ]
+}
+
 const personal = {
     title:"Personal info",
     subtitle:"Hello, my name is",
@@ -296,4 +328,4 @@ const workPortfolioPoject = {
 
 
 
-export {personal,workQuick,workEducation,workKnowledge,workSkills,workExperience,workProject,workLanguage,workInterests,workServices,workContact,workPricing,workPortfolioPoject,footer}
+export {workNavbarSocialIcon,personal,workQuick,workEducation,workKnowledge,workSkills,workExperience,workProject,workLanguage,workInterests,workServices,workContact,workPricing,workPortfolioPoject,footer}

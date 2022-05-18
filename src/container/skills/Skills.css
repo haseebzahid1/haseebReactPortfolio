@@ -1,22 +1,44 @@
-.skills-row{
+.skills-row {
     display: flex;
     padding-top: 98px;
     padding-bottom: 150px;
 }
-.skills-col-4{
+
+.skills-col-4 {
     width: 100%;
     max-width: 25%;
     text-align: center;
 
 }
 
-.circle-subline-title{
+.circle-subline-title {
     display: block;
     font-size: 14px;
     line-height: 30px;
     margin-top: 19.7px;
 }
 
+:root{
+    --highlight-color: yellow;
+    --c-size: 150px default;
+    --c-size-md: 130px default;
+    --c-size-sm: 100px default;
+    --c-border-width: 12px default;
+    --c-border-color: red default;
+    --c-border-color-default: pink default;
+    --c-background: brown;
+}
+.p2{
+    --c-active: 90%;
+    --c-active-2: 80%;
+    --c-active-3: 85%;
+    --c-active-4: 75%;
+    --c-umfang: 235;
+    
+}
+p {
+    color: var(--highlight-color);
+}
 
 
 
@@ -25,34 +47,37 @@
 
 
 
-
-@media (max-width:1400px){
-    .skills-row{
+@media (max-width:1400px) {
+    .skills-row {
         padding-top: 60px;
-		padding-bottom: 55px;
+        padding-bottom: 55px;
     }
 }
-@media (max-width:826px){
-    .skills-row{
-       flex-wrap: wrap;
+
+@media (max-width:826px) {
+    .skills-row {
+        flex-wrap: wrap;
     }
 }
-@media (max-width:667px){
-    .skills-row{
+
+@media (max-width:667px) {
+    .skills-row {
         padding-top: 60px;
-		padding-bottom: 55px;
+        padding-bottom: 55px;
     }
-    .skills-col-4{
+
+    .skills-col-4 {
         max-width: 50%;
     }
-    .skills-col-mt{
-		margin-top: 2rem;
-	}
+
+    .skills-col-mt {
+        margin-top: 2rem;
+    }
 }
 
 
 
-/* $c-size: 150px !default;
+/* $c-size: 150px default;
 $c-size-md: 130px !default;
 $c-size-sm: 100px !default;
 $c-border-width: 12px !default;
@@ -70,5 +95,3 @@ $stroke-dasharray: #{($c-umfang * $c-active) / 100}, $c-umfang;
 $stroke-dasharray-2: #{($c-umfang * $c-active-2) / 100}, $c-umfang;
 $stroke-dasharray-3: #{($c-umfang * $c-active-3) / 100}, $c-umfang;
 $stroke-dasharray-4: #{($c-umfang * $c-active-4) / 100}, $c-umfang; */
-
-

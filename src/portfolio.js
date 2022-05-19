@@ -174,6 +174,28 @@ const workSkills = {
     title:"Coding Skills",
     imgIcon:"an an-tools",
     desc:"Good Grip on Dart Programming. I will make Flutter Attractive Ui’s and implementation of Restful API’s. I will make any kind of flutter ui (simple to complicated) using google flutter framework. ",
+    skills:[
+        {
+            className:"circle",
+            percentage:"90%",
+            subject:"Html"
+        },
+        {
+            className:"circle-2",
+            percentage:"80%",
+            subject:"Css,Sass,Less"
+        },
+        {
+            className:"circle-3",
+            percentage:"85%",
+            subject:"Bootstrap"
+        },
+        {
+            className:"circle-4",
+            percentage:"55%",
+            subject:"JavaScript"
+        },
+    ]
     
 }
 const workExperience = {

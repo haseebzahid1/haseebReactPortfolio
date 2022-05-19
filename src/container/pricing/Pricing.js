@@ -22,7 +22,7 @@ const Pricing = () => {
 
                     {/*  */}
                     <div class="pricing-row">
-                        <PricingCard />
+                        <PricingCard />``
                     </div>
                 </div>
 

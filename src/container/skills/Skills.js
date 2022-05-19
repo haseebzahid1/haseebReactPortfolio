@@ -22,7 +22,7 @@ const Skills = () => {
                     <div className="skills__skills-row">
                         {workSkills.skills.map((skill) => {
                             return <div className="skills__skills-col-4">
-                                
+
                                 <div className={skill.className}>
                                     <div className="inner">
 
@@ -41,7 +41,7 @@ const Skills = () => {
                         })}
 
                     </div>
-
+                   
                 </div>
 
             </div>

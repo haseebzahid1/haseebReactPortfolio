@@ -7,6 +7,7 @@ const NavbarSocialIcon = () => {
             {workNavbarSocialIcon.navbarSocialIcon.map((navbar)=>{
                 return <a href={navbar.link} className="nav__nav-icon-mobile" target={navbar.target}>
                 <i className={navbar.icon}></i>
+                
             </a>
             })}
             

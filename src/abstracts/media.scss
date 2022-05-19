@@ -1,0 +1,22 @@
+// @include respond(tab-land-6)
+
+@mixin respond($breakpoint){
+    
+  
+    @if $breakpoint == phone{
+       @media (max-width: 667px) {@content}; //640px
+    }
+   
+   
+    @if $breakpoint == phone-md{
+       @media (max-width: 826px) {@content}; //640px
+    }
+   
+  
+   @if $breakpoint == big-desktop-min-2{
+       @media (max-width: 1400px) {@content}; //1400px
+   }
+  
+}
+
+

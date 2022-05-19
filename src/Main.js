@@ -27,9 +27,9 @@ const Main = () => {
     <Language />
     <Interests />
     <Services />
-    <Contact />
-    <Pricing />
     <PortfolioProject />
+    <Pricing />
+    <Contact />
     <Footer />
     </>
   )
